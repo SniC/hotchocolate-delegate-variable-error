@@ -2,7 +2,7 @@
 
 ## Issue: Delegating with a variable does not work when Input Type is an object.
 
-## How to reproduce:
+## How to reproduce
 - Open in VS2019
 - Select all projects as startup projects
 - Hit F5
@@ -17,8 +17,8 @@
 }
 ```
 
-## What happens:
-- This stacktrace is returned
+## What happens
+This stacktrace is returned:
 
 ```json
 {
@@ -44,8 +44,8 @@
 
 ```
 
-## What was expected:
-The following response
+## What was expected
+The following response was expected:
 
 ```json
 {
