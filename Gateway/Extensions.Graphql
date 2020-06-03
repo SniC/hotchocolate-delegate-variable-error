@@ -1,0 +1,4 @@
+﻿extend type Item {
+  extraData: String!
+    @delegate(schema: "two", path: "dataForItem(filter: { id: $fields:id })")
+}
